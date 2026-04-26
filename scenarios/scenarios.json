@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "ESB latency spike at 18:09 UTC (fault 126)",
+    "query": "The ESB service is showing elevated response times starting around 18:09 UTC on 2020-05-25. Success rate may have dropped. Investigate the root cause and identify which component is responsible."
+  },
+  {
+    "id": 2,
+    "title": "Intermittent ESB failures between 19:40–20:20 UTC (faults 129–130)",
+    "query": "We have multiple ESB degradation reports between 19:40 and 20:20 UTC on 2020-05-25. Failures appear intermittent. Investigate whether this is a single root cause or multiple independent issues."
+  },
+  {
+    "id": 3,
+    "title": "JDBC timeout investigation",
+    "query": "Engineers are reporting slow database queries. Trace data suggests JDBC calls are occasionally taking hundreds of milliseconds. Find which database node is the bottleneck and what infrastructure metric explains it."
+  },
+  {
+    "id": 4,
+    "title": "Full incident timeline reconstruction (all faults on May 25 2020)",
+    "query": "Give me a full timeline of all known incidents on 2020-05-25 (UTC). For each fault window, confirm whether the ESB service degraded and identify the most likely root cause from the telemetry."
+  },
+  {
+    "id": 5,
+    "title": "Docker container health during degradation",
+    "query": "During the ESB degradation windows on 2020-05-25, I want to know if any Docker containers showed abnormal CPU or thread pool usage. Identify the most stressed container and its host OS node."
+  }
+]
